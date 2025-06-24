@@ -14,25 +14,6 @@
 
 ### Вы можете использовать любой формат данных, но он должен поддерживать сортировку.
 
-Пример сущности, приходящей из API эталонного задания:
-
-    export interface TicketTime {
-        startTime: string;
-        endTime: string;
-    }
-
-    export interface Ticket {
-        id: number;
-        from: string;
-        to: string;
-        company: string;
-        price: number;
-        currency: 'RUB';
-        time: TicketTime;
-        duration: number;
-        date: string;
-        connectionAmount: number | null;
-    }
 
     
 Чтобы создать заготовку проекта, воспользуйтесь Vite и выберите пресет react-ts или react-swc-ts:
